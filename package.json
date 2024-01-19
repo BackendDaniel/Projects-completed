@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@sweetalert2/theme-dark": "^5.0.15",
+    "@sweetalert2/themes": "^5.0.15",
+    "axios": "^1.6.1",
+    "classnames": "^2.3.2",
+    "emailjs-com": "^3.2.0",
+    "noty": "^3.2.0-beta-deprecated",
+    "react-spinners": "^0.13.8",
+    "react-tooltip": "^5.23.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.6.13"
+  }
+}

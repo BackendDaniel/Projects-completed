@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-image: url('./assets/images/backgro.png'); 
+  background-size: cover;
+  opacity: 0.9;
+  font-family: 'Inter', sans-serif;
+}
+.playfair-light {
+  font-family: 'Playfair Display', serif;
+  font-weight: 100; /* Use 300 for Light variant */
+}
+
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.course-card {
+  max-width: 300px; /* Adjust the width as needed */
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+html{
+  scroll-behavior: smooth;
+}

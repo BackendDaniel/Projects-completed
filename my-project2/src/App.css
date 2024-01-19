@@ -1,0 +1,67 @@
+#root {
+  max-width: auto;
+  margin: 0 auto;
+  
+}
+
+/* App.css */
+
+/* Light Mode Styles */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+}
+
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #1a202c;
+  color: #ffffff;
+
+  
+}
+.dark-mode p.text-black {
+  color: #000000; /* Adjust the color to your preference */
+}
+
+.dark-mode p.text-b{
+  color:#000000;
+}
+/* App.css */
+
+/* ... (other styles) ... */
+
+.dark-footer {
+  background-color: #1a202c; /* Dark mode background color */
+  color: #ffffff; /* Dark mode text color */
+}
+
+.dark-links {
+  color: #ffffff; /* Dark mode link color */
+}
+
+.dark-mode{
+  color: #ffffff;
+}
+
+.dark-mode-button:hover {
+  color: #000000; /* Change to your desired hover color in light mode */
+  background-color: rgb(255, 255, 255);
+}
+
+.dark-mode label{
+  color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
